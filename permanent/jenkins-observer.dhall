@@ -10,6 +10,6 @@ in  { agentId = "jenkins-observer-1"
                }
     , metadata = Some { description = "Observes all Jenkins jobs every 5 minutes"
                       , owner = "team-a"
-                      , version = Some 1
+                      , version = Some 2
                       }
     }
