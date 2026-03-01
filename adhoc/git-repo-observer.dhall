@@ -18,5 +18,5 @@ in  { id = "adhoc/git-repo-observer"
     , schedule = TimeSpec.Periodic { interval = 5, unit = < Minutes | Hours | Days >.Minutes }
     , config = { repoUrl = "https://example.com/repo.git", branch = "main" }
     , metadata = { description = Some "Observes a git repo every 5 minutes", owner = Some "test" }
-    , version = 1
+    , version = 3
     }
