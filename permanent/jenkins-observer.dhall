@@ -13,5 +13,5 @@ in  { id = "permanent/jenkins-observer-1"
     , metadata = { description = Some "Observes all Jenkins jobs every 5 minutes"
                  , owner = Some "team-a"
                  }
-    , version = 9
+    , version = 10
     }
